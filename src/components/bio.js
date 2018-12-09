@@ -9,8 +9,11 @@ class Bio extends Component {
       this.props.changeBio('c')
     }
     if (this.props.bio === 'c') {
-      this.props.changeBio('a')
+      this.props.changeBio('d')
     }
+    if (this.props.bio === 'd') {
+        this.props.changeBio('a')
+      }
     console.log(this.props.bio)
   }
 
@@ -45,6 +48,19 @@ class Bio extends Component {
         </div>
       )
     }
+    if (this.props.bio === 'd') {
+        return (
+          <div className='bio' onClick={this.bioToggle.bind(this)}>
+            <h4 id='bio-text'>
+             is Andrew
+            </h4>
+          </div>
+        )
+      }
+
+
+
+
   }
 
   render() {

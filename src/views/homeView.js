@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from '../components/header'
 import '../App.css';
 import Bio from '../components/bio'
+import Contact from '../components/contact'
 
 class HomeView extends Component {
   constructor(props) {
@@ -34,12 +35,12 @@ class HomeView extends Component {
       <div className='App container'>
         <Header/>
 
-        
         <Bio
           bio={this.state.bio}
           changeBio={this.changeBio}
         />
-
+        
+      <Contact/>
       </div>
     )
   }
