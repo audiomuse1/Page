@@ -4,6 +4,7 @@ import '../App.css';
 import Bio from '../components/bio'
 import Contact from '../components/contact'
 import Resume from '../components/resume'
+import Projects from '../components/projects'
 
 class HomeView extends Component {
   constructor(props) {
@@ -41,8 +42,9 @@ class HomeView extends Component {
           changeBio={this.changeBio}
         />
 
-      <Contact/>
       <Resume/>
+      <Projects/>
+      <Contact/>
       </div>
     )
   }

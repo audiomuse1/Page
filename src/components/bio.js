@@ -62,7 +62,8 @@ class Bio extends Component {
         return (
           <div className='bio' onClick={this.bioToggle.bind(this)}>
             <h4 id='bio-text'>
-            Public Transit
+            <div class="likes">Public Transit</div>
+            <img src="https://www.nycgo.com/images/articles/8785/soc-nycsubway-7train-buglewicz__facebook.jpg" width="17%"></img>
             </h4>
           </div>
         )

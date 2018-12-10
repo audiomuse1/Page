@@ -7,7 +7,7 @@ class Resume extends Component {
     return (
         <Link to='/Resume'>
         <div className='resume'>
-          <p>Click to look at my resume</p> 
+          <p>RESUME</p> 
         </div>     
         </Link>
         

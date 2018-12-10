@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
 import Header from '../components/header'
 import '../App.css'
-import ResumeDoc from '../components/resumedoc'
+import ProjectList from '../components/projectlist'
 
 
 
 
-class ResumeView extends Component {
+class ProjectsView extends Component {
 
 
   render() {
     return (
       <div className='App-container'>
         <Header />
-        <ResumeDoc/>
+        <ProjectList />
       </div>
     )
   }
 
 }
-export default ResumeView;
+export default ProjectsView

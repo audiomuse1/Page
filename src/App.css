@@ -74,7 +74,7 @@ body {
   top: 40%;
   width: 100%;
   height: 20%;
-  font-size: 1rem;
+  font-size: 40px;
   background-color: palegoldenrod;
   color: black;
 }
@@ -83,15 +83,28 @@ body {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  position: fixed;
+  position: absolute;
   top: 20%;
   width: 60%;
   margin-left: 20%;
-  height: 80%;
+  height: auto;
   font-size: 1rem;
   background-color: paleturquoise;
   color: black;
 
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 60%;
+  width: 100%;
+  height: 20%;
+  font-size: 40px;
+  background-color: palegreen;
+  color: black;
 }
 
 
@@ -144,4 +157,28 @@ ul {
 
 .skill {
   text-align: left;
+}
+
+
+.projectlist {
+  color: palevioletred;
+}
+
+.projectlistbox {
+  position: fixed;
+  top: 20%;
+  width: 60%;
+  margin-left: 20%;
+  height: 80%;
+  font-size: 1rem;
+  background-color: palegreen;
+  color: black;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.date {
+  font-weight: bold;
 }
