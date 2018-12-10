@@ -3,6 +3,7 @@ import Header from '../components/header'
 import '../App.css';
 import Bio from '../components/bio'
 import Contact from '../components/contact'
+import Resume from '../components/resume'
 
 class HomeView extends Component {
   constructor(props) {
@@ -39,8 +40,9 @@ class HomeView extends Component {
           bio={this.state.bio}
           changeBio={this.changeBio}
         />
-        
+
       <Contact/>
+      <Resume/>
       </div>
     )
   }

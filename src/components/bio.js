@@ -12,8 +12,17 @@ class Bio extends Component {
       this.props.changeBio('d')
     }
     if (this.props.bio === 'd') {
-        this.props.changeBio('a')
-      }
+        this.props.changeBio('e')
+    }
+    if (this.props.bio === 'e') {
+      this.props.changeBio('f')
+    }
+    if (this.props.bio === 'f') {
+      this.props.changeBio('g')
+    }
+    if (this.props.bio === 'g') {
+      this.props.changeBio('a')
+    }
     console.log(this.props.bio)
   }
 
@@ -25,7 +34,7 @@ class Bio extends Component {
       return (
         <div className='bio' onClick={this.bioToggle.bind(this)}>
           <h4 id='bio-text'>
-           Hello
+           Hello, My Name is Andrew. <br></br>
           </h4>
         </div>
       )
@@ -34,7 +43,7 @@ class Bio extends Component {
       return (
         <div className='bio' onClick={this.bioToggle.bind(this)}>
           <h4 id='bio-text'>
-           My
+           I like:
           </h4>
         </div>
       )
@@ -43,7 +52,8 @@ class Bio extends Component {
       return (
         <div className='bio' onClick={this.bioToggle.bind(this)}>
           <h4 id='bio-text'>
-            Name
+            <div class="likes">Cities</div>
+            <img src="https://i.ytimg.com/vi/C9J1p6kO9VA/maxresdefault.jpg" width="17%"></img>
           </h4>
         </div>
       )
@@ -52,12 +62,38 @@ class Bio extends Component {
         return (
           <div className='bio' onClick={this.bioToggle.bind(this)}>
             <h4 id='bio-text'>
-             is Andrew
+            Public Transit
             </h4>
           </div>
         )
       }
-
+      if (this.props.bio === 'e') {
+        return (
+          <div className='bio' onClick={this.bioToggle.bind(this)}>
+            <h4 id='bio-text'>
+             Bicycling
+            </h4>
+          </div>
+        )
+      }
+      if (this.props.bio === 'f') {
+        return (
+          <div className='bio' onClick={this.bioToggle.bind(this)}>
+            <h4 id='bio-text'>
+             Politics
+            </h4>
+          </div>
+        )
+      }
+      if (this.props.bio === 'g') {
+        return (
+          <div className='bio' onClick={this.bioToggle.bind(this)}>
+            <h4 id='bio-text'>
+             Culture
+            </h4>
+          </div>
+        )
+      }
 
 
 

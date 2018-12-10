@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import HomeView from './views/homeView';
+import ResumeView from './views/resumeView';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
       <Switch>
         <Route path='/' exact component={HomeView} />
+        <Route path='/Resume' exact component={ResumeView} />
       </Switch>
       </div>
     );
