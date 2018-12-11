@@ -36,6 +36,23 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Share Tech Mono', monospace;
+  background-color: #ecdfc8;
+}
+
+/* HomePage Views */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  font-size: 1rem;
+  background-color:	#0e3031;
+  color: white;
+  z-index: 1;
 }
 
 .bio {
@@ -48,22 +65,8 @@ body {
   width: 100%;
   height: 20%;
   font-size: 1rem;
-  background-color: #444;
-  color: #AAA;
-}
-
-
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 80%;
-  width: 100%;
-  height: 20%;
-  font-size: 1rem;
-  background-color: paleturquoise;
-  color: black;
+  background-color: #143d3e;
+  color: white;
 }
 
 .resume {
@@ -73,11 +76,57 @@ body {
   position: fixed;
   top: 40%;
   width: 100%;
-  height: 20%;
+  height: (50/3)%;
   font-size: 40px;
-  background-color: palegoldenrod;
+  background-color: #174345;
+  color: white;
+}
+
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 55.8%;
+  width: 100%;
+  height: (50/3)%;
+  font-size: 40px;
+  background-color: #1a494b;
+  color: white;
+}
+
+
+.interests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 71.5%;
+  width: 100%;
+  height: (50/3)%;
+  font-size: 40px;
+  background-color: #1e4f51;
+  color: white;
+}
+
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 87%;
+  width: 100%;
+  height: 14%;
+  font-size: 1rem;
+  background-color: RGB(34, 85, 87);
   color: black;
 }
+
+
+
 
 .resumedoc {
   /* display: flex;
@@ -89,22 +138,9 @@ body {
   margin-left: 20%;
   height: auto;
   font-size: 1rem;
-  background-color: paleturquoise;
+  background-color: #ecdfc8;
   color: black;
 
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 60%;
-  width: 100%;
-  height: 20%;
-  font-size: 40px;
-  background-color: palegreen;
-  color: black;
 }
 
 
@@ -114,6 +150,10 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+p {
+  text-align: left;
 }
 
 .icon {
@@ -157,6 +197,7 @@ ul {
 
 .skill {
   text-align: left;
+  font-weight: bold;
 }
 
 
@@ -181,4 +222,12 @@ ul {
 
 .date {
   font-weight: bold;
+}
+
+.education {
+  background-color: #daa520;
+    height: 30px;
+    width: 100%;
+    color: black;
+    font-size: 30px;
 }

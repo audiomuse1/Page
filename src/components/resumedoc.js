@@ -5,15 +5,21 @@ class ResumeDoc extends Component {
     
   render() {
     return (
-        <Link to='/'>
+        
+    
         <div className='resumedoc'>
-         
+
+      <Link to='/'>Back</Link>
+<br></br>
+
+        <a href='https://scribd.com/document/379115376/Andrew-Hartford-Resume'>View on Scribd</a>
        <h1 className="name"> Andrew J. Hartford
            <br></br>
             andrewhartford2@gmail.com | (210) 852-0750
        </h1>
             <br></br>
 
+      <div className="education">Education</div>
     {/* education */}
            <div className="flex-container">
              <div className="location"><p>Austin Coding Academy</p></div>
@@ -27,6 +33,7 @@ class ResumeDoc extends Component {
            </div>
            <p>•	Bachelor of Science in Chemistry; Focus Track – Computational Chemistry</p>
 
+       <div className="education">Skills</div>
      {/* skills */}
              <div className="skill"><p>Languages and technologies</p></div>
              <p>•	HTML/CSS/Javascript, Bootstrap, Git, ReactJS, Redux, MongoDB, Heroku, authentication</p>
@@ -35,6 +42,7 @@ class ResumeDoc extends Component {
              <div className="skill"><p>Communication</p></div>
              <p>•	HTML/CSS/Javascript, Bootstrap, Git, ReactJS, Redux, MongoDB, Heroku, authentication</p>
 
+  <div className="education">Experience</div>
       {/* experience */}
 
             <div className="flex-container">
@@ -56,12 +64,13 @@ class ResumeDoc extends Component {
              <div className="date"><p>Jan 2016 - June 2018</p></div>
            </div>
            <p>•	Carried out EPA-approved testing methods through Gas Chromatography, UV/VIS techniques.</p>
+           <p>•	Submitted data through Labcore software for QA review within time constraints</p>
             
 
 
 
          </div>     
-        </Link>
+  
     )
   }
 }

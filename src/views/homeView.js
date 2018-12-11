@@ -5,6 +5,7 @@ import Bio from '../components/bio'
 import Contact from '../components/contact'
 import Resume from '../components/resume'
 import Projects from '../components/projects'
+import Interests from '../components/interests'
 
 class HomeView extends Component {
   constructor(props) {
@@ -44,6 +45,7 @@ class HomeView extends Component {
 
       <Resume/>
       <Projects/>
+      <Interests/>
       <Contact/>
       </div>
     )

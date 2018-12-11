@@ -6,6 +6,7 @@ class Resume extends Component {
   render() {
     return (
         <Link to='/Resume'>
+        
         <div className='resume'>
           <p>RESUME</p> 
         </div>     
