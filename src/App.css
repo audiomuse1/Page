@@ -202,7 +202,7 @@ p {
 
 
 .projectlist {
-  color: palevioletred;
+  color: #1a494b;
 }
 
 .projectlistbox {
@@ -212,7 +212,7 @@ p {
   margin-left: 20%;
   height: 80%;
   font-size: 1rem;
-  background-color: palegreen;
+  background-color: white;
   color: black;
 }
 
